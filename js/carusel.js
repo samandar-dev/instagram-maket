@@ -8,6 +8,7 @@ let count3 = 0;
 // let n = index
 // if (n == 0) {
 
+
 carBtnright.addEventListener('click', () => {
   console.log('aaa');
   count1++;
