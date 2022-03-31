@@ -1,0 +1,185 @@
+.hero {
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+}
+
+.hero__inner {
+  width: 100%;
+  height: 100%;
+  padding: 30px 20px 45px;
+}
+
+.hero__left-box {
+  width: 290px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.hero__logo-box {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -7.5px;
+    left: -7.5px;
+    width: 165px;
+    height: 165px;
+    background: transparent;
+    border-radius: 50%;
+    border: 3px solid #e95455;
+  }
+}
+
+.hero__title-btn {
+  width: auto;
+  height: auto;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hero__logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hero__desc-top {
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.hero__title {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: -5px 0 -6px;
+  margin-right: 20px;
+
+  & .bx {
+    font-size: 20px;
+  }
+}
+
+.hero__btn-one {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+
+  padding: 5px 9px;
+  margin-right: 8px;
+
+  border: none;
+  color: #232323;
+  background: transparent;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: #fff;
+    background: rgb(219, 219, 219);
+  }
+}
+
+.hero__btn-two {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+
+  padding: 6px 24px;
+  margin-right: 8px;
+
+  border: none;
+  color: #fff;
+  background: #0095f6;
+  border: 1px solid #0095f6;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: #0095f6;
+    background: transparent;
+    border: 1px solid #0095f6;
+  }
+}
+
+.hero__btn-thre {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+
+  padding: 6px 12px;
+  margin-right: 8px;
+
+  border: none;
+  color: #fff;
+  background: #0095f6;
+  border: 1px solid #0095f6;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: #0095f6;
+    background: transparent;
+    border: 1px solid #0095f6;
+  }
+}
+
+.hero__btn-four {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 18px;
+  margin-top: -20px;
+
+  padding: 8;
+  margin-left: 8px;
+
+  border: none;
+  color: #232323;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.hero__price-box {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.hprice__tit {
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 40px;
+  margin-bottom: 0;
+}
+
+.hprice__num {
+  color: #262626;
+  font-weight: 600;
+}
+
+.htext__tit {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #262626;
+  margin-bottom: 0;
+  &:hover {
+    color: #262626;
+  }
+}
+
+.htext__text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #262626;
+}

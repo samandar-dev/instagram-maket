@@ -1,0 +1,123 @@
+.main {
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+}
+
+.main__inner {
+  width: 100%;
+  height: 100%;
+}
+
+.main__actual {
+  width: 935px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 25px;
+  margin-bottom: 45px;
+}
+
+.act__box {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.act__list {
+  width: 100%;
+  height: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.act__item {
+  width: 135px;
+  height: 135px;
+  padding: 10px 20.5px;
+}
+
+.act__btn {
+  width: 87px;
+  height: 87px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #e4e4e4;
+
+  & img {
+    width: 77px;
+    height: 77px;
+
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.act__btn-tit {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #262626;
+  text-align: center;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.act__carusel-btn-left {
+  position: absolute;
+  top: 45%;
+  left: 0px;
+  transform: translate(0, -30%);
+
+  font-size: 25px;
+  line-height: 25px;
+
+  border: none;
+  color: #fff;
+  background: #5559;
+  border-radius: 50%;
+}
+
+.act__carusel-btn-right {
+  position: absolute;
+  top: 45%;
+  right: -5px;
+  transform: translate(0, -30%);
+
+  font-size: 25px;
+  line-height: 25px;
+
+  border: none;
+  color: #fff;
+  background: #5559;
+  border-radius: 50%;
+}
+
+// MAIN CONTENET PART
+
+.con__btns-box {
+  width: 97%;
+  height: 100%;
+  margin: 0 auto;
+  border-top: 1px solid rgb(219, 219, 219);
+}
+
+.con__btn {
+  width: auto;
+  height: 44px;
+  margin-top: -1px;
+
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 15px;
+
+  color: #262626;
+  border: none;
+  background: transparent;
+  transition: all 0.2s ease;
+
+  &:focus {
+    border-top: 1px solid #000;
+  }
+}
