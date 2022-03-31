@@ -45,7 +45,6 @@ let objArr = [
     Totam, cupiditate. Non sed inventore tempora.`,
     urls: [
       'mediya/video-4.mp4',
-      'images/img-4.jpg',
     ],
     videoImg: 'images/video-img-4.jpg',
     like: '15 893',
@@ -54,15 +53,16 @@ let objArr = [
   },
   {
     id: 5,
-    desc: `
+    desc: `    
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    Totam, cupiditate. Non sed inventore tempora
-    a, id omnis quam unde iusto?Lorem ipsum dolor`,
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
     urls: [
-      'images/img-2.jpg',
+      'mediya/video-2.mp4',
+      'images/img-5.jpg',
     ],
-    like: '9 766',
-    comment: 232,
+    videoImg: 'images/video-img-2.jpg',
+    like: '3 112',
+    comment: 52,
     save: false,
   },
   {
@@ -87,16 +87,15 @@ let objArr = [
   },
   {
     id: 7,
-    desc: `    
+    desc: `
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
+    Totam, cupiditate. Non sed inventore tempora
+    a, id omnis quam unde iusto?Lorem ipsum dolor`,
     urls: [
       'images/img-5.jpg',
-      'mediya/video-2.mp4',
     ],
-    videoImg: 'images/video-img-2.jpg',
-    like: '3 112',
-    comment: 52,
+    like: '9 766',
+    comment: 232,
     save: false,
   },
   {
@@ -105,7 +104,7 @@ let objArr = [
     Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
     urls: [
       'mediya/video-5.mp4',
-      'https://www.instagram.com/p/CbmRriUNG17/?utm_source=ig_web_copy_link',
+      'images/img-1.jpg',
     ],
     videoImg: 'images/video-img-5.jpg',
     like: '2 345',
@@ -121,7 +120,7 @@ let objArr = [
     Totam, cupiditate. Non sed inventore temporaa`,
     urls: [
       'mediya/video-3.mp4',
-      'https://www.instagram.com/p/CbmRriUNG17/?utm_source=ig_web_copy_link',
+      'images/img-8.jpg',
     ],
     videoImg: 'images/video-img-3.jpg',
     like: '6 743',

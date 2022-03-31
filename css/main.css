@@ -533,6 +533,27 @@ body {
   overflow: hidden;
 }
 
+.in-con__slider-box {
+  position: relative;
+  width: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.in-con__img {
+  width: 100%;
+  height: 100%;
+}
+
+.in-con__vidyo {
+  width: 100%;
+  height: 90%;
+}
+
 .in-con__left-btn {
   position: absolute;
   top: 50%;
@@ -549,18 +570,7 @@ body {
   background: #0005;
   border: none;
   border-radius: 50%;
-}
-
-.in-con__img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.in-con__vidyo {
-  width: 100%;
-  height: 90%;
+  z-index: 3;
 }
 
 .in-con__right-btn {
@@ -579,6 +589,7 @@ body {
   background: #0005;
   border: none;
   border-radius: 50%;
+  z-index: 3;
 }
 
 .in-con__desc__btns-box {
@@ -1028,6 +1039,12 @@ body {
   position: relative;
   width: 100%;
   margin: 0 auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.act__box:hover button {
+  opacity: 1;
 }
 
 .act__list {
@@ -1083,6 +1100,7 @@ body {
   color: #fff;
   background: #5559;
   border-radius: 50%;
+  opacity: 0;
 }
 
 .act__carusel-btn-right {
@@ -1097,6 +1115,7 @@ body {
   color: #fff;
   background: #5559;
   border-radius: 50%;
+  opacity: 0;
 }
 
 .con__btns-box {

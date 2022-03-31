@@ -21,6 +21,11 @@
   position: relative;
   width: 100%;
   margin: 0 auto;
+  transition: all 0.3s ease;
+
+  &:hover button {
+    opacity: 1;
+  }
 }
 
 .act__list {
@@ -77,6 +82,7 @@
   color: #fff;
   background: #5559;
   border-radius: 50%;
+  opacity: 0;
 }
 
 .act__carusel-btn-right {
@@ -92,6 +98,7 @@
   color: #fff;
   background: #5559;
   border-radius: 50%;
+  opacity: 0;
 }
 
 // MAIN CONTENET PART
