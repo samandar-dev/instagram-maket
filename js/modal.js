@@ -169,7 +169,7 @@ function modalFunc() {
                             </div>
                             <div class="butns-box btns d-flex align-items-center justify-content-between">
                               <div class="butns__left d-flex align-items-center">
-                                <button class="btns__like" onclick="saveFunc(${item.id})"><i class='bx bx-heart' id="${item.id}"></i></button>
+                                <button class="btns__like" onclick="likeFunc(${item.id})"><i class='bx bx-heart' id="${item.id}"></i></button>
                                 <button class="btns__com"><i class='bx bxs-message-rounded-dots'></i></button>
                                 <button class="btns__per"><i class='bx bxl-telegram'></i></button>
                               </div>

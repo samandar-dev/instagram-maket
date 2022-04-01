@@ -17,19 +17,6 @@ let likeCout = false
 function saveFunc(id) {
   console.log('ww');
 
-  const likeTit = document.querySelector('.like_num');
-  const likeBtn = document.querySelector('.btns__like');
-  const likeIcon = document.querySelector('.bx-heart');
-  if (likeCout == false) {
-    likeCout = true
-    likeTit.textContent += eval(1)
-    likeIcon.className = 'bx bxs-heart';
-  } else {
-    likeTit.textContent -= 1
-    likeIcon.className = 'bx bx-heart';
-  }
-
-
   const saveBtnBox = document.querySelector('.butns-box');
   let saveBtn = document.createElement('button');
 
@@ -102,4 +89,26 @@ function saveFunc(id) {
   })
 
   modalFunc();
+}
+
+
+function likeFunc(id) {
+
+  const likeTit = document.querySelector('.like_num');
+  const likeBtn = document.querySelector('.btns__like');
+  const likeIcon = document.querySelector('.bx-heart');
+
+  let n = likeTit.textContent.at(-1)
+  let end = 1
+  let tot = eval(n) + eval(end)
+
+  if (likeCout == false) {
+    likeCout = true
+    likeTit.textContent += tot
+    likeIcon.className = 'bx bxs-heart';
+  } else {
+    likeTit.textContent -= eval(n) - eval(end)
+    likeIcon.className = 'bx bx-heart';
+  }
+
 }
